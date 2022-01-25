@@ -1,7 +1,7 @@
 # File-Parser
 parses file contaning text using input redirection
 
-After running makefile, run like this:
+After building with make, run like this:
 ```
 ./parser.x < test
 ```
