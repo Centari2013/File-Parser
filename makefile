@@ -1,6 +1,6 @@
-proj7.x: driver.o
-	g++ -o proj7.x  driver.o
-driver.o: driver.cpp parser.h parser.hpp
-	g++ -c -std=c++11 driver.cpp
+parser.x: main.o
+	g++ -o parser.x  main.o
+main.o: main.cpp parser.h parser.hpp
+	g++ -c -std=c++11 main.cpp
 clean:
-	rm *.o proj7.x
+	rm *.o parser.x
